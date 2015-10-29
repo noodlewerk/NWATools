@@ -16,6 +16,7 @@
 		2335CD1E1BE229E600263572 /* ContinentalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2335CD1D1BE229E600263572 /* ContinentalUITests.swift */; };
 		2335CD2C1BE22DEE00263572 /* countries_by_continent.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2335CD2B1BE22DEE00263572 /* countries_by_continent.plist */; settings = {ASSET_TAGS = (); }; };
 		2335CD2E1BE22E1F00263572 /* Continental.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2335CD2D1BE22E1F00263572 /* Continental.swift */; settings = {ASSET_TAGS = (); }; };
+		23BD2EDC1BE25C1600EC019F /* CLPlacemark+Continental.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BD2EDB1BE25C1600EC019F /* CLPlacemark+Continental.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		2335CD1F1BE229E600263572 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2335CD2B1BE22DEE00263572 /* countries_by_continent.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = countries_by_continent.plist; sourceTree = "<group>"; };
 		2335CD2D1BE22E1F00263572 /* Continental.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Continental.swift; sourceTree = "<group>"; };
+		23BD2EDB1BE25C1600EC019F /* CLPlacemark+Continental.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CLPlacemark+Continental.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 			children = (
 				2335CD2B1BE22DEE00263572 /* countries_by_continent.plist */,
 				2335CD2D1BE22E1F00263572 /* Continental.swift */,
+				23BD2EDB1BE25C1600EC019F /* CLPlacemark+Continental.swift */,
 				2335CCFD1BE229E600263572 /* AppDelegate.swift */,
 				2335CCFF1BE229E600263572 /* ViewController.swift */,
 				2335CD011BE229E600263572 /* Main.storyboard */,
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2335CD001BE229E600263572 /* ViewController.swift in Sources */,
+				23BD2EDC1BE25C1600EC019F /* CLPlacemark+Continental.swift in Sources */,
 				2335CCFE1BE229E600263572 /* AppDelegate.swift in Sources */,
 				2335CD2E1BE22E1F00263572 /* Continental.swift in Sources */,
 			);
@@ -489,6 +493,7 @@
 				2335CD241BE229E600263572 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2335CD251BE229E600263572 /* Build configuration list for PBXNativeTarget "ContinentalTests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +502,7 @@
 				2335CD271BE229E600263572 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2335CD281BE229E600263572 /* Build configuration list for PBXNativeTarget "ContinentalUITests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +511,7 @@
 				2335CD2A1BE229E600263572 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
