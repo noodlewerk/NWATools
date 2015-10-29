@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2335CCFE1BE229E600263572 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2335CCFD1BE229E600263572 /* AppDelegate.swift */; };
+		2335CD001BE229E600263572 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2335CCFF1BE229E600263572 /* ViewController.swift */; };
+		2335CD031BE229E600263572 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2335CD011BE229E600263572 /* Main.storyboard */; };
+		2335CD051BE229E600263572 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2335CD041BE229E600263572 /* Assets.xcassets */; };
+		2335CD081BE229E600263572 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2335CD061BE229E600263572 /* LaunchScreen.storyboard */; };
+		2335CD131BE229E600263572 /* ContinentalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2335CD121BE229E600263572 /* ContinentalTests.swift */; };
+		2335CD1E1BE229E600263572 /* ContinentalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2335CD1D1BE229E600263572 /* ContinentalUITests.swift */; };
+		2335CD2C1BE22DEE00263572 /* countries_by_continent.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2335CD2B1BE22DEE00263572 /* countries_by_continent.plist */; settings = {ASSET_TAGS = (); }; };
+		2335CD2E1BE22E1F00263572 /* Continental.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2335CD2D1BE22E1F00263572 /* Continental.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2335CD0F1BE229E600263572 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2335CCF21BE229E600263572 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2335CCF91BE229E600263572;
+			remoteInfo = Continental;
+		};
+		2335CD1A1BE229E600263572 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2335CCF21BE229E600263572 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2335CCF91BE229E600263572;
+			remoteInfo = Continental;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2335CCFA1BE229E600263572 /* Continental.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Continental.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2335CCFD1BE229E600263572 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2335CCFF1BE229E600263572 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2335CD021BE229E600263572 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2335CD041BE229E600263572 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2335CD071BE229E600263572 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2335CD091BE229E600263572 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2335CD0E1BE229E600263572 /* ContinentalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContinentalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2335CD121BE229E600263572 /* ContinentalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinentalTests.swift; sourceTree = "<group>"; };
+		2335CD141BE229E600263572 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2335CD191BE229E600263572 /* ContinentalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContinentalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2335CD1D1BE229E600263572 /* ContinentalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinentalUITests.swift; sourceTree = "<group>"; };
+		2335CD1F1BE229E600263572 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2335CD2B1BE22DEE00263572 /* countries_by_continent.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = countries_by_continent.plist; sourceTree = "<group>"; };
+		2335CD2D1BE22E1F00263572 /* Continental.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Continental.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2335CCF71BE229E600263572 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2335CD0B1BE229E600263572 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2335CD161BE229E600263572 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2335CCF11BE229E600263572 = {
+			isa = PBXGroup;
+			children = (
+				2335CCFC1BE229E600263572 /* Continental */,
+				2335CD111BE229E600263572 /* ContinentalTests */,
+				2335CD1C1BE229E600263572 /* ContinentalUITests */,
+				2335CCFB1BE229E600263572 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2335CCFB1BE229E600263572 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2335CCFA1BE229E600263572 /* Continental.app */,
+				2335CD0E1BE229E600263572 /* ContinentalTests.xctest */,
+				2335CD191BE229E600263572 /* ContinentalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2335CCFC1BE229E600263572 /* Continental */ = {
+			isa = PBXGroup;
+			children = (
+				2335CD2B1BE22DEE00263572 /* countries_by_continent.plist */,
+				2335CD2D1BE22E1F00263572 /* Continental.swift */,
+				2335CCFD1BE229E600263572 /* AppDelegate.swift */,
+				2335CCFF1BE229E600263572 /* ViewController.swift */,
+				2335CD011BE229E600263572 /* Main.storyboard */,
+				2335CD041BE229E600263572 /* Assets.xcassets */,
+				2335CD061BE229E600263572 /* LaunchScreen.storyboard */,
+				2335CD091BE229E600263572 /* Info.plist */,
+			);
+			path = Continental;
+			sourceTree = "<group>";
+		};
+		2335CD111BE229E600263572 /* ContinentalTests */ = {
+			isa = PBXGroup;
+			children = (
+				2335CD121BE229E600263572 /* ContinentalTests.swift */,
+				2335CD141BE229E600263572 /* Info.plist */,
+			);
+			path = ContinentalTests;
+			sourceTree = "<group>";
+		};
+		2335CD1C1BE229E600263572 /* ContinentalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2335CD1D1BE229E600263572 /* ContinentalUITests.swift */,
+				2335CD1F1BE229E600263572 /* Info.plist */,
+			);
+			path = ContinentalUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2335CCF91BE229E600263572 /* Continental */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2335CD221BE229E600263572 /* Build configuration list for PBXNativeTarget "Continental" */;
+			buildPhases = (
+				2335CCF61BE229E600263572 /* Sources */,
+				2335CCF71BE229E600263572 /* Frameworks */,
+				2335CCF81BE229E600263572 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Continental;
+			productName = Continental;
+			productReference = 2335CCFA1BE229E600263572 /* Continental.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2335CD0D1BE229E600263572 /* ContinentalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2335CD251BE229E600263572 /* Build configuration list for PBXNativeTarget "ContinentalTests" */;
+			buildPhases = (
+				2335CD0A1BE229E600263572 /* Sources */,
+				2335CD0B1BE229E600263572 /* Frameworks */,
+				2335CD0C1BE229E600263572 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2335CD101BE229E600263572 /* PBXTargetDependency */,
+			);
+			name = ContinentalTests;
+			productName = ContinentalTests;
+			productReference = 2335CD0E1BE229E600263572 /* ContinentalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2335CD181BE229E600263572 /* ContinentalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2335CD281BE229E600263572 /* Build configuration list for PBXNativeTarget "ContinentalUITests" */;
+			buildPhases = (
+				2335CD151BE229E600263572 /* Sources */,
+				2335CD161BE229E600263572 /* Frameworks */,
+				2335CD171BE229E600263572 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2335CD1B1BE229E600263572 /* PBXTargetDependency */,
+			);
+			name = ContinentalUITests;
+			productName = ContinentalUITests;
+			productReference = 2335CD191BE229E600263572 /* ContinentalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2335CCF21BE229E600263572 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Noodlewerk Apps";
+				TargetAttributes = {
+					2335CCF91BE229E600263572 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					2335CD0D1BE229E600263572 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 2335CCF91BE229E600263572;
+					};
+					2335CD181BE229E600263572 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 2335CCF91BE229E600263572;
+					};
+				};
+			};
+			buildConfigurationList = 2335CCF51BE229E600263572 /* Build configuration list for PBXProject "Continental" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2335CCF11BE229E600263572;
+			productRefGroup = 2335CCFB1BE229E600263572 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2335CCF91BE229E600263572 /* Continental */,
+				2335CD0D1BE229E600263572 /* ContinentalTests */,
+				2335CD181BE229E600263572 /* ContinentalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2335CCF81BE229E600263572 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2335CD081BE229E600263572 /* LaunchScreen.storyboard in Resources */,
+				2335CD2C1BE22DEE00263572 /* countries_by_continent.plist in Resources */,
+				2335CD051BE229E600263572 /* Assets.xcassets in Resources */,
+				2335CD031BE229E600263572 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2335CD0C1BE229E600263572 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2335CD171BE229E600263572 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2335CCF61BE229E600263572 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2335CD001BE229E600263572 /* ViewController.swift in Sources */,
+				2335CCFE1BE229E600263572 /* AppDelegate.swift in Sources */,
+				2335CD2E1BE22E1F00263572 /* Continental.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2335CD0A1BE229E600263572 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2335CD131BE229E600263572 /* ContinentalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2335CD151BE229E600263572 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2335CD1E1BE229E600263572 /* ContinentalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2335CD101BE229E600263572 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2335CCF91BE229E600263572 /* Continental */;
+			targetProxy = 2335CD0F1BE229E600263572 /* PBXContainerItemProxy */;
+		};
+		2335CD1B1BE229E600263572 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2335CCF91BE229E600263572 /* Continental */;
+			targetProxy = 2335CD1A1BE229E600263572 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2335CD011BE229E600263572 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2335CD021BE229E600263572 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2335CD061BE229E600263572 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2335CD071BE229E600263572 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2335CD201BE229E600263572 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2335CD211BE229E600263572 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2335CD231BE229E600263572 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Continental/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.noodlewerk.Continental;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2335CD241BE229E600263572 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Continental/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.noodlewerk.Continental;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2335CD261BE229E600263572 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ContinentalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.noodlewerk.ContinentalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Continental.app/Continental";
+			};
+			name = Debug;
+		};
+		2335CD271BE229E600263572 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ContinentalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.noodlewerk.ContinentalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Continental.app/Continental";
+			};
+			name = Release;
+		};
+		2335CD291BE229E600263572 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ContinentalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.noodlewerk.ContinentalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Continental;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		2335CD2A1BE229E600263572 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ContinentalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.noodlewerk.ContinentalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Continental;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2335CCF51BE229E600263572 /* Build configuration list for PBXProject "Continental" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2335CD201BE229E600263572 /* Debug */,
+				2335CD211BE229E600263572 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2335CD221BE229E600263572 /* Build configuration list for PBXNativeTarget "Continental" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2335CD231BE229E600263572 /* Debug */,
+				2335CD241BE229E600263572 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2335CD251BE229E600263572 /* Build configuration list for PBXNativeTarget "ContinentalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2335CD261BE229E600263572 /* Debug */,
+				2335CD271BE229E600263572 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2335CD281BE229E600263572 /* Build configuration list for PBXNativeTarget "ContinentalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2335CD291BE229E600263572 /* Debug */,
+				2335CD2A1BE229E600263572 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2335CCF21BE229E600263572 /* Project object */;
+}
