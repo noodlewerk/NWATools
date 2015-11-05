@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AF</key>
+	<dict>
+		<key>AO</key>
+		<string>Angola</string>
+		<key>BF</key>
+		<string>Burkina Faso</string>
+		<key>BI</key>
+		<string>Burundi</string>
+		<key>BJ</key>
+		<string>Benin</string>
+		<key>BW</key>
+		<string>Botswana</string>
+		<key>CD</key>
+		<string>Congo - Kinshasa</string>
+		<key>CF</key>
+		<string>Central African Republic</string>
+		<key>CG</key>
+		<string>Congo - Brazzaville</string>
+		<key>CI</key>
+		<string>Côte d’Ivoire</string>
+		<key>CM</key>
+		<string>Cameroon</string>
+		<key>CV</key>
+		<string>Cape Verde</string>
+		<key>DJ</key>
+		<string>Djibouti</string>
+		<key>DZ</key>
+		<string>Algeria</string>
+		<key>EG</key>
+		<string>Egypt</string>
+		<key>EH</key>
+		<string>Western Sahara</string>
+		<key>ER</key>
+		<string>Eritrea</string>
+		<key>ET</key>
+		<string>Ethiopia</string>
+		<key>GA</key>
+		<string>Gabon</string>
+		<key>GH</key>
+		<string>Ghana</string>
+		<key>GM</key>
+		<string>Gambia</string>
+		<key>GN</key>
+		<string>Guinea</string>
+		<key>GQ</key>
+		<string>Equatorial Guinea</string>
+		<key>GW</key>
+		<string>Guinea-Bissau</string>
+		<key>KE</key>
+		<string>Kenya</string>
+		<key>KM</key>
+		<string>Comoros</string>
+		<key>LR</key>
+		<string>Liberia</string>
+		<key>LS</key>
+		<string>Lesotho</string>
+		<key>LY</key>
+		<string>Libya</string>
+		<key>MA</key>
+		<string>Morocco</string>
+		<key>MG</key>
+		<string>Madagascar</string>
+		<key>ML</key>
+		<string>Mali</string>
+		<key>MR</key>
+		<string>Mauritania</string>
+		<key>MU</key>
+		<string>Mauritius</string>
+		<key>MW</key>
+		<string>Malawi</string>
+		<key>MZ</key>
+		<string>Mozambique</string>
+		<key>NA</key>
+		<string>Namibia</string>
+		<key>NE</key>
+		<string>Niger</string>
+		<key>NG</key>
+		<string>Nigeria</string>
+		<key>RE</key>
+		<string>Réunion</string>
+		<key>RW</key>
+		<string>Rwanda</string>
+		<key>SC</key>
+		<string>Seychelles</string>
+		<key>SD</key>
+		<string>Sudan</string>
+		<key>SH</key>
+		<string>Saint Helena</string>
+		<key>SL</key>
+		<string>Sierra Leone</string>
+		<key>SN</key>
+		<string>Senegal</string>
+		<key>SO</key>
+		<string>Somalia</string>
+		<key>ST</key>
+		<string>São Tomé and Príncipe</string>
+		<key>SZ</key>
+		<string>Swaziland</string>
+		<key>TD</key>
+		<string>Chad</string>
+		<key>TG</key>
+		<string>Togo</string>
+		<key>TN</key>
+		<string>Tunisia</string>
+		<key>TZ</key>
+		<string>Tanzania</string>
+		<key>UG</key>
+		<string>Uganda</string>
+		<key>YT</key>
+		<string>Mayotte</string>
+		<key>ZA</key>
+		<string>South Africa</string>
+		<key>ZM</key>
+		<string>Zambia</string>
+		<key>ZW</key>
+		<string>Zimbabwe</string>
+	</dict>
+	<key>AN</key>
+	<dict>
+		<key>AQ</key>
+		<string>Antarctica</string>
+	</dict>
+	<key>AS</key>
+	<dict>
+		<key>AE</key>
+		<string>United Arab Emirates</string>
+		<key>AF</key>
+		<string>Afghanistan</string>
+		<key>AM</key>
+		<string>Armenia</string>
+		<key>AZ</key>
+		<string>Azerbaijan</string>
+		<key>BD</key>
+		<string>Bangladesh</string>
+		<key>BH</key>
+		<string>Bahrain</string>
+		<key>BN</key>
+		<string>Brunei</string>
+		<key>BT</key>
+		<string>Bhutan</string>
+		<key>CN</key>
+		<string>China</string>
+		<key>CY</key>
+		<string>Cyprus</string>
+		<key>GE</key>
+		<string>Georgia</string>
+		<key>HK</key>
+		<string>Hong Kong SAR China</string>
+		<key>ID</key>
+		<string>Indonesia</string>
+		<key>IL</key>
+		<string>Israel</string>
+		<key>IN</key>
+		<string>India</string>
+		<key>IQ</key>
+		<string>Iraq</string>
+		<key>IR</key>
+		<string>Iran</string>
+		<key>JO</key>
+		<string>Jordan</string>
+		<key>JP</key>
+		<string>Japan</string>
+		<key>KG</key>
+		<string>Kyrgyzstan</string>
+		<key>KH</key>
+		<string>Cambodia</string>
+		<key>KP</key>
+		<string>North Korea</string>
+		<key>KR</key>
+		<string>South Korea</string>
+		<key>KW</key>
+		<string>Kuwait</string>
+		<key>KZ</key>
+		<string>Kazakhstan</string>
+		<key>LA</key>
+		<string>Laos</string>
+		<key>LB</key>
+		<string>Lebanon</string>
+		<key>LK</key>
+		<string>Sri Lanka</string>
+		<key>MM</key>
+		<string>Myanmar [Burma]</string>
+		<key>MN</key>
+		<string>Mongolia</string>
+		<key>MO</key>
+		<string>Macau SAR China</string>
+		<key>MV</key>
+		<string>Maldives</string>
+		<key>MY</key>
+		<string>Malaysia</string>
+		<key>NP</key>
+		<string>Nepal</string>
+		<key>NT</key>
+		<string>Neutral Zone</string>
+		<key>OM</key>
+		<string>Oman</string>
+		<key>PH</key>
+		<string>Philippines</string>
+		<key>PK</key>
+		<string>Pakistan</string>
+		<key>PS</key>
+		<string>Palestinian Territories</string>
+		<key>QA</key>
+		<string>Qatar</string>
+		<key>SA</key>
+		<string>Saudi Arabia</string>
+		<key>SG</key>
+		<string>Singapore</string>
+		<key>SY</key>
+		<string>Syria</string>
+		<key>TH</key>
+		<string>Thailand</string>
+		<key>TJ</key>
+		<string>Tajikistan</string>
+		<key>TL</key>
+		<string>Timor-Leste</string>
+		<key>TM</key>
+		<string>Turkmenistan</string>
+		<key>TR</key>
+		<string>Turkey</string>
+		<key>TW</key>
+		<string>Taiwan</string>
+		<key>UZ</key>
+		<string>Uzbekistan</string>
+		<key>VN</key>
+		<string>Vietnam</string>
+		<key>YD</key>
+		<string>People&apos;s Democratic Republic of Yemen</string>
+		<key>YE</key>
+		<string>Yemen</string>
+	</dict>
+	<key>EU</key>
+	<dict>
+		<key>AD</key>
+		<string>Andorra</string>
+		<key>AL</key>
+		<string>Albania</string>
+		<key>AT</key>
+		<string>Austria</string>
+		<key>AX</key>
+		<string>Åland Islands</string>
+		<key>BA</key>
+		<string>Bosnia and Herzegovina</string>
+		<key>BE</key>
+		<string>Belgium</string>
+		<key>BG</key>
+		<string>Bulgaria</string>
+		<key>BY</key>
+		<string>Belarus</string>
+		<key>CH</key>
+		<string>Switzerland</string>
+		<key>CS</key>
+		<string>Serbia and Montenegro</string>
+		<key>CY</key>
+		<string>Cyprus</string>
+		<key>CZ</key>
+		<string>Czech Republic</string>
+		<key>DD</key>
+		<string>East Germany</string>
+		<key>DE</key>
+		<string>Germany</string>
+		<key>DK</key>
+		<string>Denmark</string>
+		<key>EE</key>
+		<string>Estonia</string>
+		<key>ES</key>
+		<string>Spain</string>
+		<key>FI</key>
+		<string>Finland</string>
+		<key>FO</key>
+		<string>Faroe Islands</string>
+		<key>FR</key>
+		<string>France</string>
+		<key>FX</key>
+		<string>Metropolitan France</string>
+		<key>GB</key>
+		<string>United Kingdom</string>
+		<key>GG</key>
+		<string>Guernsey</string>
+		<key>GI</key>
+		<string>Gibraltar</string>
+		<key>GR</key>
+		<string>Greece</string>
+		<key>HR</key>
+		<string>Croatia</string>
+		<key>HU</key>
+		<string>Hungary</string>
+		<key>IE</key>
+		<string>Ireland</string>
+		<key>IM</key>
+		<string>Isle of Man</string>
+		<key>IS</key>
+		<string>Iceland</string>
+		<key>IT</key>
+		<string>Italy</string>
+		<key>JE</key>
+		<string>Jersey</string>
+		<key>LI</key>
+		<string>Liechtenstein</string>
+		<key>LT</key>
+		<string>Lithuania</string>
+		<key>LU</key>
+		<string>Luxembourg</string>
+		<key>LV</key>
+		<string>Latvia</string>
+		<key>MC</key>
+		<string>Monaco</string>
+		<key>MD</key>
+		<string>Moldova</string>
+		<key>ME</key>
+		<string>Montenegro</string>
+		<key>MK</key>
+		<string>Macedonia</string>
+		<key>MT</key>
+		<string>Malta</string>
+		<key>NL</key>
+		<string>Netherlands</string>
+		<key>NO</key>
+		<string>Norway</string>
+		<key>PL</key>
+		<string>Poland</string>
+		<key>PT</key>
+		<string>Portugal</string>
+		<key>RO</key>
+		<string>Romania</string>
+		<key>RS</key>
+		<string>Serbia</string>
+		<key>RU</key>
+		<string>Russia</string>
+		<key>SE</key>
+		<string>Sweden</string>
+		<key>SI</key>
+		<string>Slovenia</string>
+		<key>SJ</key>
+		<string>Svalbard and Jan Mayen</string>
+		<key>SK</key>
+		<string>Slovakia</string>
+		<key>SM</key>
+		<string>San Marino</string>
+		<key>SU</key>
+		<string>Union of Soviet Socialist Republics</string>
+		<key>UA</key>
+		<string>Ukraine</string>
+		<key>VA</key>
+		<string>Vatican City</string>
+	</dict>
+	<key>NA</key>
+	<dict>
+		<key>AG</key>
+		<string>Antigua and Barbuda</string>
+		<key>AI</key>
+		<string>Anguilla</string>
+		<key>AN</key>
+		<string>Netherlands Antilles</string>
+		<key>AW</key>
+		<string>Aruba</string>
+		<key>BB</key>
+		<string>Barbados</string>
+		<key>BL</key>
+		<string>Saint Barthélemy</string>
+		<key>BM</key>
+		<string>Bermuda</string>
+		<key>BS</key>
+		<string>Bahamas</string>
+		<key>BZ</key>
+		<string>Belize</string>
+		<key>CA</key>
+		<string>Canada</string>
+		<key>CR</key>
+		<string>Costa Rica</string>
+		<key>CU</key>
+		<string>Cuba</string>
+		<key>DM</key>
+		<string>Dominica</string>
+		<key>DO</key>
+		<string>Dominican Republic</string>
+		<key>GD</key>
+		<string>Grenada</string>
+		<key>GL</key>
+		<string>Greenland</string>
+		<key>GP</key>
+		<string>Guadeloupe</string>
+		<key>GT</key>
+		<string>Guatemala</string>
+		<key>HN</key>
+		<string>Honduras</string>
+		<key>HT</key>
+		<string>Haiti</string>
+		<key>JM</key>
+		<string>Jamaica</string>
+		<key>KN</key>
+		<string>Saint Kitts and Nevis</string>
+		<key>KY</key>
+		<string>Cayman Islands</string>
+		<key>LC</key>
+		<string>Saint Lucia</string>
+		<key>MF</key>
+		<string>Saint Martin</string>
+		<key>MQ</key>
+		<string>Martinique</string>
+		<key>MS</key>
+		<string>Montserrat</string>
+		<key>MX</key>
+		<string>Mexico</string>
+		<key>NI</key>
+		<string>Nicaragua</string>
+		<key>PA</key>
+		<string>Panama</string>
+		<key>PM</key>
+		<string>Saint Pierre and Miquelon</string>
+		<key>PR</key>
+		<string>Puerto Rico</string>
+		<key>SV</key>
+		<string>El Salvador</string>
+		<key>TC</key>
+		<string>Turks and Caicos Islands</string>
+		<key>TT</key>
+		<string>Trinidad and Tobago</string>
+		<key>US</key>
+		<string>United States</string>
+		<key>VC</key>
+		<string>Saint Vincent and the Grenadines</string>
+		<key>VG</key>
+		<string>British Virgin Islands</string>
+		<key>VI</key>
+		<string>U.S. Virgin Islands</string>
+	</dict>
+	<key>OC</key>
+	<dict>
+		<key>AS</key>
+		<string>American Samoa</string>
+		<key>AU</key>
+		<string>Australia</string>
+		<key>BV</key>
+		<string>Bouvet Island</string>
+		<key>CC</key>
+		<string>Cocos [Keeling] Islands</string>
+		<key>CK</key>
+		<string>Cook Islands</string>
+		<key>CX</key>
+		<string>Christmas Island</string>
+		<key>FJ</key>
+		<string>Fiji</string>
+		<key>FM</key>
+		<string>Micronesia</string>
+		<key>GS</key>
+		<string>South Georgia and the South Sandwich Islands</string>
+		<key>GU</key>
+		<string>Guam</string>
+		<key>HM</key>
+		<string>Heard Island and McDonald Islands</string>
+		<key>IO</key>
+		<string>British Indian Ocean Territory</string>
+		<key>KI</key>
+		<string>Kiribati</string>
+		<key>MH</key>
+		<string>Marshall Islands</string>
+		<key>MP</key>
+		<string>Northern Mariana Islands</string>
+		<key>NC</key>
+		<string>New Caledonia</string>
+		<key>NF</key>
+		<string>Norfolk Island</string>
+		<key>NR</key>
+		<string>Nauru</string>
+		<key>NU</key>
+		<string>Niue</string>
+		<key>NZ</key>
+		<string>New Zealand</string>
+		<key>PF</key>
+		<string>French Polynesia</string>
+		<key>PG</key>
+		<string>Papua New Guinea</string>
+		<key>PN</key>
+		<string>Pitcairn Islands</string>
+		<key>PW</key>
+		<string>Palau</string>
+		<key>SB</key>
+		<string>Solomon Islands</string>
+		<key>TF</key>
+		<string>French Southern Territories</string>
+		<key>TK</key>
+		<string>Tokelau</string>
+		<key>TO</key>
+		<string>Tonga</string>
+		<key>TV</key>
+		<string>Tuvalu</string>
+		<key>UM</key>
+		<string>U.S. Minor Outlying Islands</string>
+		<key>VU</key>
+		<string>Vanuatu</string>
+		<key>WF</key>
+		<string>Wallis and Futuna</string>
+		<key>WS</key>
+		<string>Samoa</string>
+	</dict>
+	<key>SA</key>
+	<dict>
+		<key>AR</key>
+		<string>Argentina</string>
+		<key>BO</key>
+		<string>Bolivia</string>
+		<key>BR</key>
+		<string>Brazil</string>
+		<key>CL</key>
+		<string>Chile</string>
+		<key>CO</key>
+		<string>Colombia</string>
+		<key>EC</key>
+		<string>Ecuador</string>
+		<key>FK</key>
+		<string>Falkland Islands</string>
+		<key>GF</key>
+		<string>French Guiana</string>
+		<key>GY</key>
+		<string>Guyana</string>
+		<key>PE</key>
+		<string>Peru</string>
+		<key>PY</key>
+		<string>Paraguay</string>
+		<key>SR</key>
+		<string>Suriname</string>
+		<key>UY</key>
+		<string>Uruguay</string>
+		<key>VE</key>
+		<string>Venezuela</string>
+	</dict>
+</dict>
+</plist>
