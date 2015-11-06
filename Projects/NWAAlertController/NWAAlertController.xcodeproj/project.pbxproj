@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23C008361BE5422800063D5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C008351BE5422800063D5A /* AppDelegate.swift */; };
+		23C008381BE5422800063D5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C008371BE5422800063D5A /* ViewController.swift */; };
+		23C0083B1BE5422800063D5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23C008391BE5422800063D5A /* Main.storyboard */; };
+		23C0083D1BE5422800063D5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23C0083C1BE5422800063D5A /* Assets.xcassets */; };
+		23C008401BE5422800063D5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23C0083E1BE5422800063D5A /* LaunchScreen.storyboard */; };
+		23C0084B1BE5422800063D5A /* NWAAlertControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C0084A1BE5422800063D5A /* NWAAlertControllerTests.swift */; };
+		23C008561BE5422800063D5A /* NWAAlertControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C008551BE5422800063D5A /* NWAAlertControllerUITests.swift */; };
+		23C008651BE542E700063D5A /* NWAAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C008631BE542E700063D5A /* NWAAlertController.swift */; };
+		23C008661BE542E700063D5A /* NWAButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C008641BE542E700063D5A /* NWAButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		23C008471BE5422800063D5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23C0082A1BE5422800063D5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23C008311BE5422800063D5A;
+			remoteInfo = NWAAlertController;
+		};
+		23C008521BE5422800063D5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23C0082A1BE5422800063D5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23C008311BE5422800063D5A;
+			remoteInfo = NWAAlertController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		23C008321BE5422800063D5A /* NWAAlertController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NWAAlertController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23C008351BE5422800063D5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		23C008371BE5422800063D5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		23C0083A1BE5422800063D5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		23C0083C1BE5422800063D5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		23C0083F1BE5422800063D5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		23C008411BE5422800063D5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23C008461BE5422800063D5A /* NWAAlertControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NWAAlertControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23C0084A1BE5422800063D5A /* NWAAlertControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NWAAlertControllerTests.swift; sourceTree = "<group>"; };
+		23C0084C1BE5422800063D5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23C008511BE5422800063D5A /* NWAAlertControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NWAAlertControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23C008551BE5422800063D5A /* NWAAlertControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NWAAlertControllerUITests.swift; sourceTree = "<group>"; };
+		23C008571BE5422800063D5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23C008631BE542E700063D5A /* NWAAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NWAAlertController.swift; sourceTree = "<group>"; };
+		23C008641BE542E700063D5A /* NWAButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NWAButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23C0082F1BE5422800063D5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23C008431BE5422800063D5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23C0084E1BE5422800063D5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23C008291BE5422800063D5A = {
+			isa = PBXGroup;
+			children = (
+				23C008341BE5422800063D5A /* NWAAlertController */,
+				23C008491BE5422800063D5A /* NWAAlertControllerTests */,
+				23C008541BE5422800063D5A /* NWAAlertControllerUITests */,
+				23C008331BE5422800063D5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		23C008331BE5422800063D5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23C008321BE5422800063D5A /* NWAAlertController.app */,
+				23C008461BE5422800063D5A /* NWAAlertControllerTests.xctest */,
+				23C008511BE5422800063D5A /* NWAAlertControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23C008341BE5422800063D5A /* NWAAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				23C008631BE542E700063D5A /* NWAAlertController.swift */,
+				23C008641BE542E700063D5A /* NWAButton.swift */,
+				23C008351BE5422800063D5A /* AppDelegate.swift */,
+				23C008371BE5422800063D5A /* ViewController.swift */,
+				23C008391BE5422800063D5A /* Main.storyboard */,
+				23C0083C1BE5422800063D5A /* Assets.xcassets */,
+				23C0083E1BE5422800063D5A /* LaunchScreen.storyboard */,
+				23C008411BE5422800063D5A /* Info.plist */,
+			);
+			path = NWAAlertController;
+			sourceTree = "<group>";
+		};
+		23C008491BE5422800063D5A /* NWAAlertControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				23C0084A1BE5422800063D5A /* NWAAlertControllerTests.swift */,
+				23C0084C1BE5422800063D5A /* Info.plist */,
+			);
+			path = NWAAlertControllerTests;
+			sourceTree = "<group>";
+		};
+		23C008541BE5422800063D5A /* NWAAlertControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				23C008551BE5422800063D5A /* NWAAlertControllerUITests.swift */,
+				23C008571BE5422800063D5A /* Info.plist */,
+			);
+			path = NWAAlertControllerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23C008311BE5422800063D5A /* NWAAlertController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23C0085A1BE5422800063D5A /* Build configuration list for PBXNativeTarget "NWAAlertController" */;
+			buildPhases = (
+				23C0082E1BE5422800063D5A /* Sources */,
+				23C0082F1BE5422800063D5A /* Frameworks */,
+				23C008301BE5422800063D5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NWAAlertController;
+			productName = NWAAlertController;
+			productReference = 23C008321BE5422800063D5A /* NWAAlertController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		23C008451BE5422800063D5A /* NWAAlertControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23C0085D1BE5422800063D5A /* Build configuration list for PBXNativeTarget "NWAAlertControllerTests" */;
+			buildPhases = (
+				23C008421BE5422800063D5A /* Sources */,
+				23C008431BE5422800063D5A /* Frameworks */,
+				23C008441BE5422800063D5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23C008481BE5422800063D5A /* PBXTargetDependency */,
+			);
+			name = NWAAlertControllerTests;
+			productName = NWAAlertControllerTests;
+			productReference = 23C008461BE5422800063D5A /* NWAAlertControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		23C008501BE5422800063D5A /* NWAAlertControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23C008601BE5422800063D5A /* Build configuration list for PBXNativeTarget "NWAAlertControllerUITests" */;
+			buildPhases = (
+				23C0084D1BE5422800063D5A /* Sources */,
+				23C0084E1BE5422800063D5A /* Frameworks */,
+				23C0084F1BE5422800063D5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23C008531BE5422800063D5A /* PBXTargetDependency */,
+			);
+			name = NWAAlertControllerUITests;
+			productName = NWAAlertControllerUITests;
+			productReference = 23C008511BE5422800063D5A /* NWAAlertControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23C0082A1BE5422800063D5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Noodlewerk Apps";
+				TargetAttributes = {
+					23C008311BE5422800063D5A = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					23C008451BE5422800063D5A = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 23C008311BE5422800063D5A;
+					};
+					23C008501BE5422800063D5A = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 23C008311BE5422800063D5A;
+					};
+				};
+			};
+			buildConfigurationList = 23C0082D1BE5422800063D5A /* Build configuration list for PBXProject "NWAAlertController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 23C008291BE5422800063D5A;
+			productRefGroup = 23C008331BE5422800063D5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23C008311BE5422800063D5A /* NWAAlertController */,
+				23C008451BE5422800063D5A /* NWAAlertControllerTests */,
+				23C008501BE5422800063D5A /* NWAAlertControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23C008301BE5422800063D5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23C008401BE5422800063D5A /* LaunchScreen.storyboard in Resources */,
+				23C0083D1BE5422800063D5A /* Assets.xcassets in Resources */,
+				23C0083B1BE5422800063D5A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23C008441BE5422800063D5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23C0084F1BE5422800063D5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23C0082E1BE5422800063D5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23C008661BE542E700063D5A /* NWAButton.swift in Sources */,
+				23C008651BE542E700063D5A /* NWAAlertController.swift in Sources */,
+				23C008381BE5422800063D5A /* ViewController.swift in Sources */,
+				23C008361BE5422800063D5A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23C008421BE5422800063D5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23C0084B1BE5422800063D5A /* NWAAlertControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23C0084D1BE5422800063D5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23C008561BE5422800063D5A /* NWAAlertControllerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23C008481BE5422800063D5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23C008311BE5422800063D5A /* NWAAlertController */;
+			targetProxy = 23C008471BE5422800063D5A /* PBXContainerItemProxy */;
+		};
+		23C008531BE5422800063D5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23C008311BE5422800063D5A /* NWAAlertController */;
+			targetProxy = 23C008521BE5422800063D5A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		23C008391BE5422800063D5A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23C0083A1BE5422800063D5A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		23C0083E1BE5422800063D5A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23C0083F1BE5422800063D5A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		23C008581BE5422800063D5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		23C008591BE5422800063D5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		23C0085B1BE5422800063D5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NWAAlertController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.noodlewerk.NWAAlertController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		23C0085C1BE5422800063D5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NWAAlertController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.noodlewerk.NWAAlertController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		23C0085E1BE5422800063D5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NWAAlertControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.noodlewerk.NWAAlertControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NWAAlertController.app/NWAAlertController";
+			};
+			name = Debug;
+		};
+		23C0085F1BE5422800063D5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NWAAlertControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.noodlewerk.NWAAlertControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NWAAlertController.app/NWAAlertController";
+			};
+			name = Release;
+		};
+		23C008611BE5422800063D5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NWAAlertControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.noodlewerk.NWAAlertControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NWAAlertController;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		23C008621BE5422800063D5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NWAAlertControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.noodlewerk.NWAAlertControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NWAAlertController;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23C0082D1BE5422800063D5A /* Build configuration list for PBXProject "NWAAlertController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23C008581BE5422800063D5A /* Debug */,
+				23C008591BE5422800063D5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23C0085A1BE5422800063D5A /* Build configuration list for PBXNativeTarget "NWAAlertController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23C0085B1BE5422800063D5A /* Debug */,
+				23C0085C1BE5422800063D5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23C0085D1BE5422800063D5A /* Build configuration list for PBXNativeTarget "NWAAlertControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23C0085E1BE5422800063D5A /* Debug */,
+				23C0085F1BE5422800063D5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23C008601BE5422800063D5A /* Build configuration list for PBXNativeTarget "NWAAlertControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23C008611BE5422800063D5A /* Debug */,
+				23C008621BE5422800063D5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23C0082A1BE5422800063D5A /* Project object */;
+}

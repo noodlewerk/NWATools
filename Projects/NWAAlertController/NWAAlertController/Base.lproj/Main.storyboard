@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8152.3" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8124.4"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="NWAAlertController_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" tag="10" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ypU-re-TBC" userLabel="Stack Background View">
+                                <rect key="frame" x="165" y="119" width="270" height="363"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="PK4-WG-Jiv">
+                                <rect key="frame" x="165" y="119" width="270" height="363"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="751" verticalCompressionResistancePriority="751" fixedFrame="YES" text="Test" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UCZ-tC-n5E">
+                                        <rect key="frame" x="0.0" y="0.0" width="270" height="24"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="751" verticalCompressionResistancePriority="751" fixedFrame="YES" text="This is what we want to create as a first alert view." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jnM-O1-f2w">
+                                        <rect key="frame" x="0.0" y="34" width="270" height="41"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="etp-JW-oNk">
+                                        <rect key="frame" x="0.0" y="85" width="270" height="128"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vyx-Uq-Pvs">
+                                                <rect key="frame" x="0.0" y="0.0" width="90" height="128"/>
+                                                <color key="backgroundColor" red="0.93801258480000005" green="0.67573837140000004" blue="0.088209558290000004" alpha="1" colorSpace="calibratedRGB"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1xU-nj-zsW">
+                                                <rect key="frame" x="90" y="0.0" width="90" height="128"/>
+                                                <color key="backgroundColor" red="0.10980392160000001" green="0.70980392160000005" blue="0.6705882353" alpha="1" colorSpace="calibratedRGB"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Y6F-bP-aio">
+                                                <rect key="frame" x="180" y="0.0" width="90" height="128"/>
+                                                <color key="backgroundColor" red="0.090196078430000007" green="0.61568627450000002" blue="0.58039215690000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qji-hd-FGc">
+                                        <rect key="frame" x="0.0" y="223" width="270" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="eaD-DW-0uA"/>
+                                        </constraints>
+                                        <state key="normal" title="Show UIKit Alert Controller"/>
+                                        <connections>
+                                            <action selector="showUIAlertControllerTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="8Yg-dn-HoL"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bbc-Nk-T1i">
+                                        <rect key="frame" x="0.0" y="273" width="270" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="GAb-1N-dfe"/>
+                                        </constraints>
+                                        <state key="normal" title="Show NWA Alert Controller"/>
+                                        <connections>
+                                            <action selector="showNWAAlertControllerTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="39h-mQ-a7i"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CZ7-PI-Zv2" customClass="NWAButton" customModule="NWAAlertController">
+                                        <rect key="frame" x="0.0" y="323" width="270" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="nUg-FE-qQz"/>
+                                        </constraints>
+                                        <state key="normal" title="NWA with colors"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="normalBackgroundColor">
+                                                <color key="value" red="0.93801258480000005" green="0.67573837140000004" blue="0.088209558290000004" alpha="1" colorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="selectedBackgroundColor">
+                                                <color key="value" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="highlightedBackgroundColor">
+                                                <color key="value" red="1" green="0.36078431370000003" blue="0.31764705879999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="disabledBackgroundColor">
+                                                <color key="value" red="0.78039215689999997" green="0.7725490196" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="showNWAWithColorsTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="tqd-BC-sm8"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="270" id="JzC-AX-HrI"/>
+                                </constraints>
+                                <edgeInsets key="layoutMargins" top="20" left="20" bottom="20" right="20"/>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ypU-re-TBC" firstAttribute="centerX" secondItem="PK4-WG-Jiv" secondAttribute="centerX" id="Aia-GD-9Lt"/>
+                            <constraint firstItem="ypU-re-TBC" firstAttribute="width" secondItem="PK4-WG-Jiv" secondAttribute="width" id="Xf6-Ci-c4L"/>
+                            <constraint firstItem="ypU-re-TBC" firstAttribute="height" secondItem="PK4-WG-Jiv" secondAttribute="height" id="b3S-H8-alb"/>
+                            <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="PK4-WG-Jiv" secondAttribute="trailing" id="co7-Q2-I7u"/>
+                            <constraint firstItem="PK4-WG-Jiv" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="qcz-0f-GGY"/>
+                            <constraint firstItem="PK4-WG-Jiv" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="s7q-tW-F5s"/>
+                            <constraint firstItem="ypU-re-TBC" firstAttribute="centerY" secondItem="PK4-WG-Jiv" secondAttribute="centerY" id="sTp-kP-x8Q"/>
+                            <constraint firstItem="PK4-WG-Jiv" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="wki-yJ-RgB"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="stackView" destination="PK4-WG-Jiv" id="wnu-qD-iOt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="474" y="522"/>
+        </scene>
+    </scenes>
+</document>
